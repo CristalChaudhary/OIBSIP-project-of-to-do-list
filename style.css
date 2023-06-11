@@ -1,0 +1,175 @@
+ body,html{
+    margin: 0;
+    padding: 0;
+    height: 700px;
+   background-image: url(OIP.jpeg) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   font-family: 'Poppins', sans-serif;
+  
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    border-bottom: 2px solid rgb(102, 17, 28);
+    
+}
+.to_do_list{
+   width: auto;
+    /* display: inline; */
+    justify-content: center;
+    
+    
+    
+
+}
+.main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+   
+  
+    
+}
+
+.do{
+    width: 400px;
+    height: 150px;
+    background-color:rgb(26, 97, 70);
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+   
+    
+}
+.do input{
+    margin: 5px;
+    height: 40px;
+    padding: 5px;
+    width: 370px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.do button{
+    
+    margin-top: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    width: 380px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+  
+}
+.list{
+    width: 700px;
+    height: 500px;
+    margin-left:10px;
+    /* background-color: aliceblue; */
+    /* background-color: transparent; */
+}
+.title{
+   
+    width: 700px;
+    height: 40px;
+    
+    
+   
+    
+    
+   
+   
+}
+.title ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+    background-color: rgb(179, 104, 249);
+    border-radius: 10px;
+    color: rgb(243, 238, 238);
+   
+}
+.title ul li{
+    color: rgb(228, 238, 238);
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;   
+}
+.title ul i{
+    cursor: pointer;
+}
+
+.title-1{
+    background-color: blueviolet;
+    width: 700px;
+    height: 40px;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-bottom: 20px;
+   
+    
+    
+   
+   
+}
+.title-1 ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+    background-color: blueviolet;
+    
+    color: aliceblue;
+   
+}
+.title-1 ul li{
+    color: rgb(228, 238, 238);
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;   
+}
+
+.done{
+    text-decoration: line-through;
+    color: aliceblue ;
+    background-color: rgba(95, 100, 100, 0.859) !important;
+}
+/* #to-do-box{
+    width: 660px;
+    height: auto;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+     display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#to-do-box li{
+   color: aliceblue;
+     background-color: blueviolet; 
+  
+   
+
+}
+
+  #to-do-box li i{
+   color: aliceblue;
+    font-size: 17px; 
+  padding: 10px;
+
+    
+    
+   
+   
+   
+  }*/
